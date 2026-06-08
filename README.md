@@ -36,6 +36,6 @@ Le site a été pensé pour être lisible sur tous les écrans.
 
 - Lien vers le site
 
-Version en ligne (GitHub Pages) : /lien à rajouter/
+Version en ligne (GitHub Pages) : https://fiona-drn.github.io/portfolio-fiona/
 
 
