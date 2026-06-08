@@ -1,0 +1,133 @@
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js" defer></script>
+        <title> Mes Projets</title>
+    </head>
+
+
+    <body class="page-projets">
+
+        <div class = "animations-projets">
+            <span class="leaf"></span>
+            <span class="leaf"></span>
+            <span class="leaf"></span>
+            <span class="leaf"></span>
+            <span class="leaf"></span>
+        </div>
+
+        <header> 
+
+            <h1 class="titre"> Mes projets </h1>
+
+             <nav class="navbar">
+
+                <ul>
+                    <li> <a href="index.html"> A propos </a> </li>
+                    <li> <a href="competences.html"> Compétences </a> </li>
+                    <li class="active"> <a href="projets.html"> Projets </a> </li>
+                    <li> <a href="mecontacter.html"> Contacts </a> </li>
+                </ul>
+
+            </nav>
+        </header>
+
+        <main>
+
+            <div class="container">
+
+                <section class="projets">
+
+                    <h3 style="text-decoration: underline;"> Projet 1 : Affichage de personnages Harry Potter </h3>
+
+                    <div class="images_projet1" id="imagesProjet1" style="display:none;">
+                        <img src="screen-projets/projetHp_pc.PNG" alt="Vue projet (PC)">
+                        <img src="screen-projets/projetHp_mobile.PNG" alt="Vue projet (mobile)">
+                    
+
+                        <button id="voirDescriptionBtn1" style="display: none;">Voir la description</button>
+                    
+                    </div>
+
+                    <div class="cartes_projet" id="carteProjet1"> 
+                        
+
+                        <p> 
+                            Ce projet personnel consistait à créer un site affichant les différents personnages de la saga <i>Harry Potter</i>, 
+                            grâce aux données d'une API, en utilisant HTML, CSS et JavaScript. 
+                            J'ai réalisé une interface où les utilisateurs peuvent parcourir les différentes cartes de personnages. 
+                            Ces cartes sont composées d'une photo du personnage, de son nom, du nom de l'acteur et enfin de sa "maison" dans cet univers fictif. 
+                        </p>
+
+                        <button id="voirImagesBtn1">Voir les images</button>
+
+                    </div>  
+
+
+                </section>
+
+
+                <section class="projets">
+                    <h3 style="text-decoration: underline;"> Projet 2 - Scolaire (L2) : Gestion et interface d'un magasin d'instruments </h3>
+
+                    <div class="images_projet2" id="imagesProjet2" style="display:none;">
+                        <img src="screen-projets/projetPOO_vue-principale.PNG" alt="Vue principale du projet (magasin)">
+                        <img src="screen-projets/projetPOO_vueInstrument.PNG" alt="Vue instruments">
+                        <img src="screen-projets/projetPOO_exemple.PNG" alt="Vue ajout d'instrument">
+                        <img src="screen-projets/POOdiagramme_uml.jpeg" alt="Diagramme UML du projet">
+                    
+                        <button id="voirDescriptionBtn2" style="display: none;">Voir la description</button>
+                    </div>
+
+
+                    <div class="cartes_projet"  id="carteProjet2"> 
+
+                            <p>
+                            Ce projet est un projet académique réalisé en cours de POO (Java), il a été fait en binôme
+                            avec l'une de mes camarades. L'objectif était de modéliser la gestion d'un magasin de vente
+                            d'instruments proposant divers services: la location, la réparation et l'achat d'accessoires. 
+                            </p>
+
+                            <p>
+                            Nous avons d'abord élaboré un diagramme UML complet afin de définir les classes, leurs relations et les responsabilités de chacune.
+                            La réflexion autour de la structure du programme a été faite en colaboration avec mon binôme.
+                            Je me suis principalement occupée des vues et du contrôleur. 
+                            Mon binôme s'est principalement chargé des méthodes métiers. Nous avons travaillé ensemble sur la logique générale.
+                            </p>
+
+                            <p>
+                            Ce que j'ai apprécié dans ce projet, c'est la mise en pratique concrète de la POO: comprendre comment organiser le programme,
+                            structurer les classes et les faires communiquer entre elles.
+                            Travailler en binôme a également été très positif, cela m'a permis de confronter mes idées et d'observer une autre manière de coder.
+                            </p>
+
+                            <p>
+                            J'ai rencontré quelques difficultés sur certaines vues, notamment au niveau de l'affichage et de la gestion d'évènements,
+                            ce qui entraînait des problèmes de rendu.
+                            Cependant, cela m'a appris à mieux déboguer, à prendre l'habitude de tester régulièrement mon programme et à structurer mon code de manière beaucoup plus claire.
+                            </p>
+                            
+
+                        <button id="voirImagesBtn2">Voir les images</button>
+
+
+
+                    </div>  
+
+
+                </section>
+
+               
+
+                
+
+            </div>
+        </main>    
+        
+    </body>
+
+
+    </html>
