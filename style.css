@@ -339,7 +339,7 @@ button {
 /*STYLE POUR LA PAGE DE CONTACTS*/
 
 .page-contacts {
-    background: linear-gradient(to bottom, #f5fbfd, #636e797a);
+    background: linear-gradient(to bottom, #f5fbfd, #465461a4);
     min-height: 100vh;
     font-size: 1.1rem;
     color:rgb(0, 16, 27);
