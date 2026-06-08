@@ -289,10 +289,6 @@ h3 {
   .page-projets .container {
     grid-template-columns: 1fr;
   }
-  .img_haute,
-  .img_basse {
-    display: none;
-  }
 }
 
 
@@ -512,5 +508,44 @@ button {
 @keyframes fallSnow {
     to {
         transform: translateY(110vh) ;
+    }
+}
+
+/*AJUSTEMENT DES ESPACES ET DES POLICES D'ECRITURE POUR VUE MOBILE*/
+
+@media (max-width: 500px) {
+    .container {
+        max-width: 400px;
+    }
+
+    .page-accueil,
+    .page-competences,
+    .page-projets,
+    .page-contacts {
+        font-size: 16px;
+    }
+    .titre, .page-accueil .titre{
+        font-size: 32px;
+    }
+
+    #soustitre{
+        font-size: 16px;
+    }
+    .navbar{
+        font-size: 14px;
+    }
+    .navbar a {
+        padding: 0.25rem 0.5rem;
+    }
+    .navbar ul {
+        gap: 7px;
+    }
+
+    /*page accueil mvue mobile*/
+    .info h2 {
+        font-size: 24px;
+    }
+    .info p, .apropos p{
+        font-size: 16px;
     }
 }
