@@ -1,7 +1,7 @@
 # Portfolio – Fiona #
 
 Bienvenue sur mon portfolio !  
-Je suis Fiona, étudiante en Informatique (Bac+2) à l’Université d’Évry Paris‑Saclay.  
+Je suis Fiona, étudiante en Informatique (Bac+3) à l’Université d’Évry Paris‑Saclay.  
 Passionnée par le développement web, j’aime concevoir des sites assez modernes, intuitifs et agréables à utiliser.
 Ce portfolio présente mes projets, mes compétences et mon profil.
 
